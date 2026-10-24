@@ -101,3 +101,34 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
+
+# Added by IDEaz: secrets, local IDE state and build output are never committed.
+.env*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.p8
+*.ppk
+id_rsa
+id_ed25519
+secret.*
+secrets.*
+credentials.json
+client_secret*.json
+service-account*.json
+service_account*.json
+serviceaccount*.json
+google-services.json
+GoogleService-Info.plist
+.npmrc
+.netrc
+_netrc
+.pypirc
+.git-credentials
+.htpasswd
+.ideaz/
+node_modules/
+dist/
